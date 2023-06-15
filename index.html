@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adopción de Mascotas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#adopta">Adopta</a></li>
+        <li><a href="#donaciones">Donaciones</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <img src="Imágenes/images-3.png" alt="lo sentimos la imgen no esta disponible :(">
+
+  <section id="inicio">
+    <div class="hero">
+      <h1>¡Adopta una Mascota!</h1>
+      <p>Encuentra a tu compañero peludo perfecto.</p>
+      <a href="#adopta" class="cta-btn">Ver Mascotas Disponibles</a>
+    </div>
+  </section>
+
+  <section id="adopta">
+    <div class="container">
+      <h2>Adopta una Mascota</h2>
+      <p>Explora nuestras adorables mascotas en busca de un hogar.</p>
+    </div>
+  </section>
+
+  <img src="Imágenes/images.jpg" alt="">
+
+  <section id="donaciones">
+    <div class="container">
+      <h2>Haz una Donación</h2>
+      <p>Ayúdanos a cuidar y brindar atención a las mascotas necesitadas.</p>
+      <!-- Aquí puedes agregar información sobre cómo hacer donaciones -->
+    </div>
+  </section>
+
+  <section id="contacto">
+    <div class="container">
+      <h2>Contacto</h2>
+      <p>Si tienes alguna pregunta o deseas más información, contáctanos.</p>
+    </div>
+  </section>
+
+  <img src="Imágenes/images-2.jpg" alt="">
+
+  <div class="container">
+    <h1>Formulario de Contacto</h1>
+    <form id="contactForm" onsubmit="event.preventDefault(); validateForm();">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Mensaje:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Sitio de Adopción de Mascotas</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+
+</body>
+</html>

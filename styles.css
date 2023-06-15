@@ -1,0 +1,78 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #f2d9e6; /* Rosa pastel */
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #584d68; /* Lila pastel */
+  }
+  
+  /* Estilos de las secciones */
+  section {
+    padding: 40px 0;
+  }
+  
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #6e5773; /* Lila pastel */
+  }
+  
+  p {
+    font-size: 18px;
+    color: #9294a3; /* Verde pastel */
+  }
+  
+  .cta-btn {
+    display: inline-block;
+    background-color: #f2d9e6; /* Rosa pastel */
+    color: #584d68; /* Lila pastel */
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    background-color: #e1f2dc; /* Verde pastel */
+    padding: 20px;
+    text-align: center;
+    color: #584d68; /* Lila pastel */
+  } 
